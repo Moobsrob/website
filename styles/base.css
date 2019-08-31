@@ -53,7 +53,7 @@ body {
   .topnav a:not(:first-child) {display: none;}
   .dropdown-hide {
     display:none;
-//    visibility: hidden;
+    visibility: hidden;
   }
   .topnav a.icon {
     float: right;
