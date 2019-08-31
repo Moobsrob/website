@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+html { overflow-y: hidden; }
+html { overflow-x: hidden; }
+
+/* Style the video: 100% width and height to cover the entire window */
+
+	
+body {
+  margin: 0;
+  padding: 0;
+/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* The only rule that matters */
+#myVideo {
+/*  making the video fullscreen  */
+  object-fit: fill;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -100;
+}
+		
+	
+
+	
+
+
+	
+
+
+
+
